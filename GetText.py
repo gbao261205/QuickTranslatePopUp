@@ -17,7 +17,7 @@ class ClipboardWatcher:
 
     def _handle_copy(self):
         pyautogui.hotkey('ctrl', 'c')
-        time.sleep(0.1)
+        time.sleep(0.03)
         new_text = pyperclip.paste().strip()
         if new_text and new_text != self.last_text:
             self.last_text = new_text
