@@ -21,12 +21,16 @@ Ideal for reading foreign-language content, studying, or fast on-screen translat
 
 # 📦 Installation
 1. Clone or download this repository:
-git clone https://github.com/yourusername/popup-translator.git
-cd popup-translator
+   
++ git clone https://github.com/gbao261205/QuickTranslatePopUp.git
+
 2. Install required packages (Please using Python version 3.12 or under and not using Python 3.13):
-pip install pyperclip pyautogui pynput googletrans==4.0.0rc1
+   
++ pip install pyperclip pyautogui pynput googletrans==4.0.0rc1
+
 3. Run the app:
-python main.py
+
++ python main.py
 
 # 🛠 Dependencies:
 
